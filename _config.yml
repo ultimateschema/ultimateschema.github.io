@@ -34,7 +34,6 @@ image: /assets/images/logo-words_black.png
   
   
 # Build settings
-theme: minima
 plugins:
     - jekyll-sitemap
     - jekyll-seo-tag
