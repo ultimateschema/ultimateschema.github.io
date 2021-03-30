@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row my-3">
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <a href="{{ '/' | absolute_url }}"><img class="mb-2"
+                            src="/assets/images/black-logo-words.png" alt="" height="19"></a>
+                    <small class="d-block mb-3 text-muted">© {{ 'now' | date: "%Y" }}</small>
+                </div>
+                <!-- <div class="col-6 col-md"> -->
+                    <!-- <h5>Knowledge Base</h5> -->
+                    <!-- {% for post in site.posts %} -->
+                    <!-- <ul class="list-unstyled text-small"> -->
+                        <!-- <li><a class="link-secondary" href="{{ post.url }}">{{ post.title }}</a></li> -->
+                    <!-- </ul> -->
+                    <!-- {% endfor %} -->
+                <!-- </div> -->
+                <div class="col-6 col-md">
+                    <h5>Newsletter</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="link-secondary" href="{{ '/' | absolute_url }}">Subscribe</a></li>
+                        <!-- <li><a class="link-secondary" href="#">Privacy</a></li>
+                        <li><a class="link-secondary" href="#">Terms</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
