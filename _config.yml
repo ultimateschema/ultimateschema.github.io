@@ -38,7 +38,8 @@ plugins:
     - jekyll-sitemap
     - jekyll-seo-tag
     - jekyll-feed
-
+sass:
+  style: compressed
 permalink: ":title/"
 # Exclude from processing.
 # The following items will not be processed, by default.
