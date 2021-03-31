@@ -23,7 +23,7 @@ email: listinglabsco@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Keyword research for Etsy SEO.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://listinglabs.co" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.listinglabs.co" # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
   username: listinglabsco
   card: summary_large_image
