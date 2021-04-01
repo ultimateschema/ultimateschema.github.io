@@ -3,30 +3,23 @@ layout: home
 title: Thanks
 ---
 
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <nav class="navbar navbar-dark bg-black">
-        <a class="navbar-brand" href="{{site.url}}">
-            <img src="/assets/images/logo-words.png" height="30" class="d-inline-block align-top" alt="">
-        </a>
-    </nav>
 
-    <header class="masthead mb-auto">
+
+{% include index-nav.html %}
+<div class="cover-container d-flex h-100 p-3 mx-auto flex-column" style="max-width: 42em;">
+    
+
+    <header class="masthead mb-auto" style="margin-top: 10rem;">
     </header>
 
     <main role="main" class="inner cover">
-        <h1 class="cover-heading">Thanks for signing up</h1>
+        <h1 color="black"> <b>Thanks for signing up. </b></h1>
         <p class="lead">Please <strong>confirm your email address</strong>. It could be in your spam/promotions
             folder.</p>
-        <p class="lead">You'll be notified when things start moving.</p>
-        <p class="lead"><a target="_blank"
-                href="https://twitter.com/intent/tweet?text=Learn%20algorithmic%20trading.%20@quantsecrets">🔗 Share
-                this on Twitter</a></p>
-        <p class="lead">Visit the <a target="_blank" href="{{ '/base' | absolute_url }}">knowledge base</a>.</p>
+		<p class="lead">You'll be notified when things start moving.</p>
+        <p class="lead">
+        
+        </p>
     </main>
-
-    <footer class="mastfoot mt-auto">
-        <div class="inner text-center">
-            <p><a target="_blank" href="https://twitter.com/quantsecrets">@quantsecrets</a></p>
-        </div>
-    </footer>
+  
 </div>
