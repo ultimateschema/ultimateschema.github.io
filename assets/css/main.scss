@@ -92,6 +92,7 @@ pre {
     margin: 0;
 }
 
+/*
 @media (prefers-color-scheme: light) {
     body {
       background-color: $gray-900;
@@ -135,7 +136,7 @@ pre {
     a { 
         color: lighten($primary, 20%);
     }
-}
+}*/
 
 .highlight pre { background-color: #404040 }
 .highlight .hll { background-color: #404040 }
