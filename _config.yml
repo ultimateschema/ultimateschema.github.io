@@ -31,7 +31,10 @@ twitter:
 
 logo: /assets/images/logo-words_white.png
 image: /assets/images/logo-words_black.png  
-  
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false  
   
 # Build settings
 plugins:
