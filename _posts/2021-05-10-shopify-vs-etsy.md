@@ -1,6 +1,6 @@
 ---
 layout: post
-title:Shopify vs Etsy: The Only Comparison You Need To See
+title: "Shopify vs Etsy: I decided which one to use!"
 description: You are trying to decide between Shopify vs Etsy to start? This review will get you to the decision.
 date: 2021-05-10
 ---
