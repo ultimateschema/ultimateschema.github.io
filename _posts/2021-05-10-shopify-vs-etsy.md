@@ -35,12 +35,9 @@ Lets go through over this comparison in detail with the points below:
 ### **Shopify Pricing**
 
 There are 3 different pricing plan on Shopify: [Shopify Pricing](https://www.shopify.com/pricing)
-<br/><br/>
-{% capture includeGuts %}
-{% include etsy-vs-shopify-comparison.html %} 
-{% endcapture %}
-{{ includeGuts | replace: '    ', ''}}
-<br/>
+
+![Shopify vs Etsy Pricing Comparison: Shopify]({{ "/assets/images/shopify_vs_etsy/shopify_pricing.png" | absolute_url }})
+
 I think Basic Shopify plan lets you create your store with every feature required as a starter. I can upload unlimited products and sell without any problem using discount code creation and abandoned cart creation features.
 
 ---
@@ -48,13 +45,10 @@ I think Basic Shopify plan lets you create your store with every feature require
 ### **Etsy Pricing**
 
 On the other hand, Etsy have almost no upfront cost for starters. Etsy doesn't charge monthly fee like a Shopify on its basic plan. I only pay listing fees and transaction costs at Etsy. [Etsy Pricing](https://www.etsy.com/sell)
-<br/><br/>
-{% capture includeGuts %}
-{% include etsy-vs-shopify-comparison_etsy_pricing.html %} 
-{% endcapture %}
-{{ includeGuts | replace: '    ', ''}}
 
-<br/>
+![Shopify vs Etsy Pricing Comparison: Etsy]({{ "/assets/images/shopify_vs_etsy/etsy_pricing.png" | absolute_url }})
+
+
 
 I think Standard plan is just enough to start making sales. I never felt like I need the features of Plus plan to make more sales. It is only required if you want to apply more polishing to your store.
 
@@ -144,12 +138,9 @@ Yes, you can absolutely use both platforms together. I think it is good option t
 
 As a conclusion, Etsy is less expensive, easy for getting started and has much more advantage while getting visitors to your stores. On the other hand, Shopify has more design flexibility.
 
-<br/>
-{% capture includeGuts %}
-{% include shopify-vs-etsy-conclusion.html %} 
-{% endcapture %}
-{{ includeGuts | replace: '    ', ''}}
-<br/>
+
+![Shopify vs Etsy Pricing Comparison: Conclusion]({{ "/assets/images/shopify_vs_etsy/shopify-vs-etsy-result.png" | absolute_url   }})
+
 
 I believe it is great option to start with Etsy to start making sales immediately and expand into Shopify when you finally make some sales. Shopify is good to have more control and customization over marketing and brand.
 
