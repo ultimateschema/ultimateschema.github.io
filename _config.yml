@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Listinglabs"
-email: listinglabsco@gmail.com
+title: "Ultimate Schema"
+email: ultimateschemahelp@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Keyword research for Etsy SEO.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.listinglabs.co" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ultimateschema.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter:
   username: listinglabsco
   card: summary_large_image
