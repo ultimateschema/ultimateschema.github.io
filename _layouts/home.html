@@ -14,7 +14,10 @@
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="theme-color" content="#000000">
     {% seo %}
+    {% capture includeGuts %}
     {% include analytics.html %} 
+    {% endcapture %}
+    {{ includeGuts | replace: '    ', ''}}
 </head>
 
 <body>
