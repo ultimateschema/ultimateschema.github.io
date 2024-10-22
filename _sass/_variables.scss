@@ -16,6 +16,7 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
+$purple: #562ccc !default;
 
 // fusv-disable
 $grays: (
@@ -410,7 +411,7 @@ $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
 $font-weight-bold:            700 !default;
-$font-weight-bolder:          bolder !default;
+$font-weight-bolder:          bold !default;
 
 $font-weight-base:            $font-weight-normal !default;
 
@@ -457,8 +458,9 @@ $display-font-weight: 300 !default;
 $display-line-height: $headings-line-height !default;
 // scss-docs-end display-headings
 
-$lead-font-size:              $font-size-base * 1.25 !default;
-$lead-font-weight:            300 !default;
+// $lead-font-size:              $font-size-base * 1.25 !default;
+$lead-font-size:              21px !default;
+$lead-font-weight:            500 !default;
 
 $small-font-size:             .875em !default;
 
