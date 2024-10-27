@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "7 Ways to Boost Shopify Conversion Rate [2024]"
+title: "8 Ways to Boost Shopify Conversion Rate [2024]"
 description: "This is a guide on boosting your Shopify conversion rate. Learn how to increase sales and optimize your store from these 8 proven strategies."
 date: 2024-10-20
 ---
