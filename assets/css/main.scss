@@ -4,6 +4,17 @@
 @import "bootstrap";
 
 
+.post-date {
+    font-size: 16px;
+}
+.post-header {
+    font-size: 50px;
+    font-weight: 700;
+}
+.post-description {
+    font-size: 21px;
+    font-weight: 400;
+}
 
 .hero-button {
     margin-top: 1.5rem;
@@ -38,12 +49,57 @@
     align-items:center;
 }
 
+
+#myList {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.list-item {
+    font-size: 0.8rem;
+    cursor: pointer; /* Change cursor to pointer */
+    padding-left: 1rem;
+    padding-bottom: 0.2rem;
+}
+
+
+
+.list-header {
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding-left: 1rem;
+    padding-bottom: 0.3rem;
+}
+
+.list-item:hover a{
+    // background-color: #f0f0f0; /* Highlight on hover */
+    color: #0e6fdd;
+}
+
+.selected {
+    background-color: #f0f0f0; /* Highlight color for selected item */
+    color: #0e6fdd/* Change text color for visibility */
+}
+
+.blog-toc-a{
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Link color */
+}
+
+
+
+// (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px)
 /* Styles for extra small devices (mobile) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
     .hero-container {
         padding: 4rem 2rem 4rem; 
         width: 100%; 
         align-items:center;
+    }
+    .post-description {
+        font-size: 18px;
+        font-weight: 400;
+        display: none;
     }
 
     .hero-description {
@@ -57,38 +113,104 @@
         // margin: 20px 0;
         // color: #333; /* Change to your preferred color */
     }
+    .blog-toc {
+        padding-right: var(--bs-gutter-x, .75rem);
+        padding-left: var(--bs-gutter-x, .75rem);
+    }
+    .post-header {
+        font-size: 38px;
+        font-weight: 700;
+    }
 }
 
 /* Styles for small devices (tablets) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (min-width: 577px) and (max-width: 768px) {
     .hero-container {
         padding: 2rem 0.5rem 1rem; 
         width: 100%; 
         align-items:center;
     }
+    .blog-toc-sidebar {
+        display: flex; 
+        flex-direction: column; 
+        align-items: start;
+    }
+    .blog-toc-ul {
+        list-style-type: none; 
+        width: 100%;
+    }
+    .blog-toc {
+        padding-right: var(--bs-gutter-x, .75rem);
+        padding-left: var(--bs-gutter-x, .75rem);
+    }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
     .hero-img {
         display: none;
+    }
+    .blog-toc {
+        padding-right: var(--bs-gutter-x, .75rem);
+        padding-left: var(--bs-gutter-x, .75rem);
     }
 }
 
 /* Styles for medium devices (small laptops) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
     .hero-container {
         padding: 4rem 1rem 2rem; 
         width: 100%; 
         align-items:center;
     }
+    .blog-toc {
+        position: sticky; 
+        top: 30px;
+        display: flex; 
+        justify-content: flex-start; 
+        width: 180px; 
+        border-right: 1px 
+        solid; border-color: #e7e7e7;  
+    }
+    .blog-toc-ul {
+        list-style-type: none; 
+        width: 180px;
+        // border-right: 1px solid; 
+        // border-color: #e7e7e7;  
+    }
+    .blog-toc-sidebar {
+        display: flex; 
+        flex-direction: column; 
+        align-items: end;
+    }
 }
 
 /* Styles for large devices (desktops) */
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1201px) {
     .hero-container {
         padding: 8rem 2rem 4rem; 
         width: 100%; 
         align-items:center;
+    }
+    .blog-toc {
+        position: sticky; 
+        top: 30px;
+        display: flex; 
+        justify-content: flex-start; 
+        width: 240px; 
+        border-right: 1px solid; 
+        border-color: #e7e7e7;  
+    }
+    .blog-toc-ul {
+        list-style-type: none; 
+        width: 240px;
+        // border-right: 1px solid; 
+        // border-color: #e7e7e7;  
+    }
+
+    .blog-toc-sidebar {
+        display: flex; 
+        flex-direction: column; 
+        align-items: end;
     }
 }
 
