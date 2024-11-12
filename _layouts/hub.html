@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="position-relative overflow-hidden text-center bg-light">
+    <div class="col-lg-6  mx-auto mt-5 mb-3 mr-5">
+        <h1 class="display-4 post-header">{{ page.title }}</h1>
+        <p class="post-description">{{ page.description }}</p>
+        <p class="lead font-weight-normal font-italic">{{ page.date | date: '%B %d, %Y' }}</p>
+    </div>
+</div>
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="blog-main col-lg-8">
+            {{ content }}
+        </div>
+        {% include aside.html %}
+    </div>
+</div>
